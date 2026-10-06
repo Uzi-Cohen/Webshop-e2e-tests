@@ -67,7 +67,7 @@ mvn test -Papi          # run the API/backend suite (no network needed)
 - **Standard:** [`API_TEST_STANDARD.md`](../API_TEST_STANDARD.md) — a 7-step recipe for writing one.
 - **Worked example:** [`RegistrationApiTest`](../src/test/java/com/demoshop/api/tests/RegistrationApiTest.java)
   — registration happy path + duplicate-e-mail rejection, asserting status, JSON schema, and body.
-- **Mock data:** [`src/test/resources/mockdata/`](src/test/resources/mockdata/); skeletons for the
+- **Mock data:** [`src/test/resources/mockdata/`](../src/test/resources/mockdata/); skeletons for the
   catalogue, cart, and a backend contract test are stubbed with the recipe and ready to fill in.
 
 ## Design
